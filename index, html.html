@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Te quiero, Aida</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		
+		.rosa {
+			width: 100px;
+			height: 100px;
+			background-color: #ff69b4;
+			border-radius: 50%;
+			position: relative;
+			margin: 40px auto;
+		}
+		
+		.rosa::before, .rosa::after {
+			content: "";
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			background-color: #ff69b4;
+			border-radius: 50%;
+		}
+		
+		.rosa::before {
+			top: -20px;
+			left: 30px;
+		}
+		
+		.rosa::after {
+			top: 50px;
+			left: -20px;
+		}
+		
+		.mensaje {
+			text-align: center;
+			font-size: 24px;
+			color: #666;
+		}
+	</style>
+</head>
+<body>
+	<div class="rosa"></div>
+	<div class="mensaje">
+		<h1>Te quiero mucho, Aida</h1>
+		<p>Eres la persona más especial en mi vida y quiero que sepas cuánto te aprecio.</p>
+		<p>Me haces sentir muy feliz y quiero estar contigo siempre.</p>
+	</div>
+</body>
+</html>
